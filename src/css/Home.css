@@ -32,7 +32,6 @@
   font-size: 1.2rem;
   top: 75%;
   right: 45%;
-  /* margin-left: 45%; */
   position: absolute;
 }
 
@@ -70,8 +69,8 @@
 }
 
 .container--projectList {
+  width: 100%;
   display: flex;
-  /* height: 100vh; */
   background-color: #fff;
   margin-top: 100vh;
   flex-direction: column;
@@ -79,4 +78,15 @@
   align-items: center;
   position: absolute;
   z-index: 1;
+}
+
+.wave1 {
+  position: fixed;
+  margin-left: -200px;
+  transform: rotate(180deg);
+}
+
+.wave2 {
+  position: fixed;
+  margin-top: 460px;
 }

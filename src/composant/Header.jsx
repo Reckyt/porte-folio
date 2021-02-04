@@ -1,17 +1,26 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "../css/Header.css";
 
-function Header() {
+function Header(props) {
   return (
     <div className='container--header'>
       <div className='header--name'>
-        <h4>MAXIME LOMBARDO</h4>
+        <Link className='navigation' to='/'>
+          MAXIME LOMBARDO
+        </Link>
       </div>
       <div className='header--nav'>
-        <h4>projects</h4>
-        <h4>About</h4>
-        <h4>Contact</h4>
+        <Link className='navigation' to='/'>
+          Projects
+        </Link>
+        <Link className='navigation' to='/about'>
+          About
+        </Link>
+        <Link className='navigation' onClick={() => props.setOpen(!props.open)}>
+          Contact
+        </Link>
       </div>
     </div>
   );

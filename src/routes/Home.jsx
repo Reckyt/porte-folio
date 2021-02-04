@@ -1,6 +1,9 @@
 import React from "react";
+
 import { ProjectCard } from "../composant";
 
+import wave1 from "../assets/img/wave1.svg";
+import wave2 from "../assets/img/wave2.svg";
 import "../css/Home.css";
 
 function Home(props) {
@@ -15,7 +18,7 @@ function Home(props) {
       <div className='home'>
         <div className='container--intro'>
           <h1>Let's work together</h1>
-          <p>Hi, i'm Maxime web developer based in Bordeaux</p>
+          <p>Hi, I'm Maxime web developer based in Bordeaux</p>
         </div>
         <div className='explore'>
           <h5>Explore projects</h5>
@@ -27,6 +30,8 @@ function Home(props) {
       <div id='section1' className='container--projectList'>
         {renderProjectList()}
       </div>
+      <img alt='' src={wave1} className='wave1' />
+      <img alt='' src={wave2} className='wave2' />
     </div>
   );
 }

@@ -1,5 +1,6 @@
 .container--header {
   width: 100%;
+  margin-top: 30px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -19,6 +20,11 @@
   margin-right: 2%;
 }
 
-.header--nav h4:hover {
+.navigation {
+  color: grey;
+  text-decoration: none;
+}
+
+.navigation:hover {
   text-decoration: underline;
 }
