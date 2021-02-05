@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import { Home, About, Project } from "./routes";
-import { Header, Footer, Contact } from "./composant";
+import { Header, Footer, Contact } from "./component";
 
 import ApiProjects from "./API/Projects";
 import "./App.css";

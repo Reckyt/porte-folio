@@ -2,7 +2,7 @@ const projects = [
   {
     id: 0,
     title: "Maxflix",
-    img: "https://zupimages.net/up/21/05/smvh.png",
+    img: "https://zupimages.net/up/21/05/uw71.png",
     description:
       "Streaming site bringing together a large selection of films that I love",
     technologie: ["React", "Node", "MySQL"],

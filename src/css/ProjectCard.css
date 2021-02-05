@@ -21,20 +21,24 @@
   width: 100%;
   height: auto;
   border-radius: 10px;
-  opacity: 0.1;
+  opacity: 1;
   transition: all 1s;
 }
 
-.project--img:hover {
-  opacity: 1;
-  transition: all 200ms;
+.hide {
+  opacity: 0.5;
+  transition: all 100ms;
 }
 
-.project--description {
-  width: 60%;
-  font-size: 2rem;
-  font-weight: 100;
-  text-align: center;
+.eye--img--hide {
+  display: none;
+}
+
+.eye--img {
+  width: 70px;
+  position: absolute;
+  top: 45%;
+  left: 47%;
 }
 
 .lign {
