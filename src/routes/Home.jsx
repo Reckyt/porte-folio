@@ -13,7 +13,11 @@ function Home(props) {
 
   return (
     <div className='main--container'>
-      <Ligthmotiv />
+      <section
+        className='
+      '>
+        <Ligthmotiv />
+      </section>
       <section>
         <div class='parallax one'>
           <h1>MES COMPÉTENCES</h1>

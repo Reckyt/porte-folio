@@ -11,7 +11,15 @@
 
 .header--name {
   margin-left: 2%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
+
+.logo {
+  width: 100px;
+}
+
 .header--nav {
   width: 20%;
   display: flex;

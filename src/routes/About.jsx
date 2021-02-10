@@ -1,9 +1,9 @@
 import React from "react";
 
-import "../css/About.css";
 import portrait from "../assets/img/Max.jpg";
-
 import cv from "../assets/Maxime Lombardo - CV.pdf";
+
+import "../css/About.css";
 
 function About(props) {
   return (

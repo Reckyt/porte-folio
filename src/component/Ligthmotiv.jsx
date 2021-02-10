@@ -1,8 +1,5 @@
 import React from "react";
 
-import wave1 from "../assets/img/wave1.svg";
-import wave2 from "../assets/img/wave2.svg";
-
 import "../css/Ligthmotiv.css";
 
 export default function Ligthmotiv() {
@@ -20,8 +17,22 @@ export default function Ligthmotiv() {
           </a>
         </div>
       </div>
-      <img alt='' src={wave1} className='wave1' />
-      <img alt='' src={wave2} className='wave2' />
+      <svg
+        className='waveTop'
+        xmlns='http://www.w3.org/2000/svg'
+        x='1000px'
+        y='1000px'
+        viewBox='0 0 1000 1000'>
+        <path></path>
+      </svg>
+      <svg
+        className='waveBottom'
+        xmlns='http://www.w3.org/2000/svg'
+        x='1000px'
+        y='1000px'
+        viewBox='0 0 1000 1000'>
+        <path></path>
+      </svg>
     </div>
   );
 }
