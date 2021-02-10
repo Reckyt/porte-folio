@@ -13,9 +13,7 @@ function Home(props) {
 
   return (
     <div className='main--container'>
-      <section
-        className='
-      '>
+      <section className='section--ligthmotiv'>
         <Ligthmotiv />
       </section>
       <section>

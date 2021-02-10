@@ -87,14 +87,14 @@
 .waveTop {
   width: 100%;
   position: absolute;
-  top: -60%;
+  top: -63%;
   transform: rotate(180deg);
 }
 
 .waveBottom {
   width: 100%;
   position: absolute;
-  top: 14%;
+  top: 12.3%;
 }
 
 .waveTop path {
