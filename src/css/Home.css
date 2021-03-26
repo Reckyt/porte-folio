@@ -1,0 +1,55 @@
+.main--container {
+  position: relative;
+  /* background: #fff; */
+}
+
+section {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.section--ligthmotiv {
+  margin-top: 0;
+  width: 100%;
+}
+
+.parallax {
+  width: 70%;
+  padding: 100px 0px;
+  position: relative;
+  overflow: hidden;
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.one {
+  background-image: url("../assets/img/BG/bg_01.jpeg");
+}
+.two {
+  background-image: url("../assets/img/BG/bg_02.jpeg");
+}
+
+.parallax h1 {
+  font-size: 35px;
+  letter-spacing: 8px;
+  color: #fff;
+  text-align: center;
+}
+/* ==================================== */
+
+.container--projectList {
+  width: 100%;
+  display: flex;
+  background-color: #fff;
+  /* margin-top: 100vh; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+}

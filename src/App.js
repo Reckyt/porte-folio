@@ -1,24 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import ScrollToTop from "react-router-scroll-top";
+
+import { Home, About, Project } from "./routes";
+import { Header, Footer, Contact } from "./component";
+
+import ApiProjects from "./API/Projects";
+import "./App.css";
 
 function App() {
+  const [open, setOpen] = useState(false);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <ScrollToTop>
+        <div className='App'>
+          <Header open={open} setOpen={setOpen} />
+          <Contact open={open} setOpen={setOpen} />
+          <Switch>
+            <Route
+              exact
+              path='/'
+              render={() => (
+                <Home ApiProjects={ApiProjects} open={open} setOpen={setOpen} />
+              )}
+            />
+            <Route
+              path='/about'
+              render={() => <About open={open} setOpen={setOpen} />}
+            />
+            <Route path='/project/:id' render={() => <Project />} />
+          </Switch>
+          <Footer />
+        </div>
+      </ScrollToTop>
+    </BrowserRouter>
   );
 }
 

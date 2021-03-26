@@ -1,0 +1,91 @@
+.container--contact {
+  position: fixed;
+  right: 0px;
+  display: block;
+  width: 600px;
+  height: 100vh;
+  margin-left: auto;
+  padding: 0px 40px;
+  background-color: #141414;
+  z-index: 20;
+}
+
+.container--contact--hide {
+  display: none;
+}
+
+/* ================================== */
+
+.form--header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title--form {
+  color: #fff;
+  font-weight: 100;
+}
+
+.close--icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  background-image: url("../assets/img/design/close.svg");
+  background-repeat: no-repeat;
+}
+
+.text-field {
+  width: 250px;
+  height: 50px;
+  margin-top: 0px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  float: left;
+  border-style: none;
+  border-width: 0px 0px 1px;
+  border-color: #5a5a58;
+  border-radius: 2px;
+  background-color: #2c2d2d;
+  font-family: "Circularpro book", sans-serif;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.email {
+  width: 520px;
+  height: 50px;
+}
+
+.message-field {
+  width: 520px;
+  height: 200px;
+  margin-bottom: 10px;
+  border: 1px none #5a5a58;
+  border-radius: 2px;
+  background-color: #2c2d2d;
+}
+
+.submit-button {
+  margin-top: 20px;
+  padding: 15px;
+  float: left;
+  border: 1px solid #fff;
+  border-radius: 2px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+  letter-spacing: 2px;
+  transition: all 0.5s;
+}
+
+.submit-button:hover {
+  background-color: #fff;
+  color: black;
+  transition: all 0.5s;
+}

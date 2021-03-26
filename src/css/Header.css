@@ -1,0 +1,39 @@
+.container--header {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  color: grey;
+  z-index: 3;
+}
+
+.header--name {
+  margin-left: 2%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.header--nav {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 2%;
+}
+
+.navigation {
+  color: grey;
+  text-decoration: none;
+}
+
+.navigation:hover {
+  text-decoration: underline;
+}
