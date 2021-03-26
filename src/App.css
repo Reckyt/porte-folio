@@ -5,10 +5,10 @@
 
 @font-face {
   font-family: "calibri";
-  src: url("./assets/Calibri\ Regular.ttf");
+  src: url("./assets/fonts/Calibri\ Regular.ttf");
 }
 
 @font-face {
   font-family: "circular";
-  src: url("./assets/Circular\ Book.ttf");
+  src: url("./assets/fonts/Circular\ Book.ttf");
 }

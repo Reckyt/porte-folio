@@ -6,7 +6,7 @@ function Skills() {
   return (
     <div className='container--skills'>
       <div className='domaines'>
-        <h3>Domaines de compétences</h3>
+        <h2>Domaines de compétences</h2>
         <div className='skill--block'>
           <h3>Concept et cahier des charges</h3>
           <p>
@@ -32,7 +32,7 @@ function Skills() {
         </div>
       </div>
       <div className='development'>
-        <h3>Compétences en developement</h3>
+        <h2>Compétences en developement</h2>
         <div className='container--progress--bar'>
           <div className='progress--bar' style={{ width: "80%" }}>
             <p>React JS</p>

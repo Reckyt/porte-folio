@@ -15,7 +15,7 @@ function ProjectCard(props) {
     setOverlay(!overlay);
   };
   return (
-    <div className='container--project'>
+    <div className='container--projectCard'>
       <h1 className='project--title'>{props.project.title}</h1>
       <Link
         to={{ pathname: `/project/${props.project.id}` }}

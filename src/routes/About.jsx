@@ -1,7 +1,7 @@
 import React from "react";
 
-import portrait from "../assets/img/Max.jpg";
-import cv from "../assets/Maxime Lombardo - CV.pdf";
+import portrait from "../assets/img/media/Max.jpg";
+import cv from "../assets/img/media/Maxime Lombardo - CV.pdf";
 
 import "../css/About.css";
 

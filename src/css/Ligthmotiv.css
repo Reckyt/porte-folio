@@ -24,20 +24,6 @@
   margin-top: -40px;
 }
 
-.wave1 {
-  position: absolute;
-  margin-top: -300px;
-  margin-left: -200px;
-  transform: rotate(180deg);
-  z-index: 0;
-}
-
-.wave2 {
-  position: absolute;
-  margin-top: 210px;
-  z-index: 0;
-}
-
 .explore {
   width: 200px;
   color: #fff;
@@ -87,14 +73,14 @@
 .waveTop {
   width: 100%;
   position: absolute;
-  top: -63%;
+  top: -60%;
   transform: rotate(180deg);
 }
 
 .waveBottom {
   width: 100%;
   position: absolute;
-  top: 12.3%;
+  top: 14%;
 }
 
 .waveTop path {

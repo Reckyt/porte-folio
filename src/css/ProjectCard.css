@@ -1,4 +1,4 @@
-.container--project {
+.container--projectCard {
   position: relative;
   width: 50%;
   margin: 50px 0 50px 0;
@@ -8,18 +8,20 @@
   align-items: center;
 }
 
-.container--project h1 {
+.container--projectCard h1 {
   font-size: 50px;
   font-weight: 100;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-  z-index: 5;
 }
 
 .project--img {
-  width: 100%;
+  display: block;
+  width: 96%;
   height: auto;
+  padding: 20px;
+  background-color: rgb(195, 195, 195);
   border-radius: 10px;
   opacity: 1;
   transition: all 1s;

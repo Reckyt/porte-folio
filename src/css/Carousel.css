@@ -1,10 +1,11 @@
 .embla {
   position: relative;
   background-color: #f7f7f7;
-  padding: 20px;
-  max-width: 1000px;
+  padding: 15px;
+  width: 40%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 200px;
 }
 
 .embla__viewport {
@@ -51,7 +52,7 @@
   min-width: 100%;
   min-height: auto;
   max-width: none;
-  /* transform: translate(-50%, -50%); */
+  /* transform: translate(-70%, -40%); */
 }
 
 .embla__button {

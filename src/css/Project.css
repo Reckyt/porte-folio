@@ -1,0 +1,85 @@
+.container--project {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  z-index: 0;
+}
+
+.container--project h1 {
+  color: #fff;
+  position: fixed;
+  margin-top: 400px;
+  font-size: 100px;
+  font-weight: 300;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  z-index: 1;
+}
+
+.background--project {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+}
+
+.description--project {
+  width: 100%;
+  background-color: #fff;
+  margin-top: 100vh;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.description--project p {
+  color: grey;
+  width: 30%;
+  font-size: 30px;
+  padding: 100px;
+}
+
+.technos--project {
+  width: 45%;
+  height: 200px;
+  display: flex;
+  flex-flow: row wrap;
+  margin-bottom: 150px;
+}
+
+.title--technos {
+  color: grey;
+  font-size: 30px;
+  font-weight: 300;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  z-index: 1;
+}
+
+figure {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.techno--logo {
+  width: 60px;
+  padding: 10px;
+}
+
+figcaption {
+  font-size: 30px;
+  font-weight: 300;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}

@@ -22,7 +22,7 @@ function Home(props) {
         </div>
       </section>
       <Skills />
-      <section>
+      <section className='test'>
         <div class='parallax two'>
           <h1>MES PROJETS</h1>
         </div>
